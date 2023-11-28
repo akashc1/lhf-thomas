@@ -1,0 +1,18 @@
+# checkpoints etc
+results/
+
+
+# vim placeholders
+*.swp
+
+# ctags cache
+tags
+
+__pycache__
+wandb
+*.pt
+*.pdf
+*.png
+data
+.ipynb_checkpoints
+test_bo/results

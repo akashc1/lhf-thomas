@@ -1,0 +1,22 @@
+name: lhf
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8
+  - transformers
+  - peft
+  - datasets
+  - accelerate
+  - the_silver_searcher
+  - tqdm
+  - matplotlib
+  - pip:
+    - more_itertools
+    - trl
+    - notebook
+    - bitsandbytes
+    - scipy
